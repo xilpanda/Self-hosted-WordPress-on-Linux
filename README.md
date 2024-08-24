@@ -1,4 +1,4 @@
-## Project Overview
+## Task Overview
 
 This project involves advanced configuration and optimization of Nginx and PHP-FPM specifically tailored for a WordPress environment. The following configurations and enhancements were implemented:
 
