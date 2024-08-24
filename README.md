@@ -2,6 +2,12 @@
 
 This project involves advanced configuration and optimization of Nginx and PHP-FPM specifically tailored for a WordPress environment. The following configurations and enhancements were implemented:
 
+### DigitalOcean Server Provisioning and SSH Configuration:
+
+- **Secure Server Access:** Generated and configured SSH keys for secure, password-less access to DigitalOcean droplets, ensuring robust security during remote server management.
+- **Efficient Droplet Provisioning:** Provisioned and configured a new DigitalOcean droplet, integrating the SSH key for streamlined and secure root access.
+- **Remote Server Management:** Established secure SSH connections to the droplet for executing all server setup and management commands, enhancing both security and efficiency.
+
 ### Nginx Configuration Expertise (`nginx.conf`):
 
 - **Optimized Performance:** Configured Nginx to operate under `www-data` with dynamic worker processes based on CPU cores, ensuring optimal performance.
