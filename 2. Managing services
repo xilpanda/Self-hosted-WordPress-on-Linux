@@ -1,0 +1,10 @@
+# Managing Services with systemd
+
+When operating as the root user (or if you've switched to root using sudo -i or su - root), you can run these commands without prefixing them with sudo, though including it won't cause any issues.
+
+## Start your services (and enable them at boot)
+
+```
+sudo systemctl start nginx php8.3-fpm monit
+sudo systemctl enable mysql nginx php8.3-fpm monit
+```
